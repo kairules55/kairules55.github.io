@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A192F;
+}
+
+#container {
+    display: flex;
+    height: 97vh;
+    width: 98vw;
+    padding: 20px;
+    align-items: center;
+}
+
+#frontpage {
+    padding: 60px;
+}
+
+#frontpage {
+    color: #64FFDA;
+    font-size: 1.5rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#frontpage #name {
+    font-size: 5rem;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #CCD6F5;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#frontpage #designation {
+    margin-top: -48px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #8892B0;
+    font-family: 'Nanum Myeongjo', serif;
+}
