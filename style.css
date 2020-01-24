@@ -6,17 +6,16 @@ body {
     background-color: #0A192F;
 }
 
-#container {
+.container {
     display: flex;
+    padding: 80px;
+    align-items: center;
     height: 97vh;
     width: 98vw;
-    padding: 20px;
-    align-items: center;
 }
 
-#frontpage {
-    padding: 60px;
-}
+
+/*FrontPage*/
 
 #frontpage {
     color: #64FFDA;
@@ -24,7 +23,7 @@ body {
     font-family: 'Nanum Myeongjo', serif;
 }
 
-#frontpage #name {
+.title {
     font-size: 5rem;
     font-family: 'Nanum Myeongjo', serif;
     color: #CCD6F5;
@@ -32,10 +31,16 @@ body {
     font-weight: bold;
 }
 
-#frontpage #designation {
+.designation {
     margin-top: -48px;
     font-size: 4rem;
     font-weight: bold;
     color: #8892B0;
     font-family: 'Nanum Myeongjo', serif;
+}
+
+/*Project*/
+
+a{
+    text-decoration: none;;
 }
