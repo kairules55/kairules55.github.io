@@ -1,3 +1,6 @@
 [submodule "Countdown"]
 	path = Countdown
 	url = https://github.com/kairules55/Countdown
+[submodule "Calculator"]
+	path = Calculator
+	url = https://github.com/kairules55/Calculator
