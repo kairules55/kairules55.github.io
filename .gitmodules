@@ -4,3 +4,6 @@
 [submodule "Calculator"]
 	path = Calculator
 	url = https://github.com/kairules55/Calculator
+[submodule "counter_practise"]
+	path = counter_practise
+	url = https://github.com/kairules55/counter_practise.git
