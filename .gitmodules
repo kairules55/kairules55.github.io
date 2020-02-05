@@ -7,3 +7,6 @@
 [submodule "counter_practise"]
 	path = counter_practise
 	url = https://github.com/kairules55/counter_practise.git
+[submodule "PingPong"]
+	path = PingPong
+	url = https://github.com/kairules55/PingPong

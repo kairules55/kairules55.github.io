@@ -12,6 +12,7 @@ body {
   align-items: center;
   height: 97vh;
   width: 98vw;
+  flex-direction: column;
 }
 
 /*Navigation*/
@@ -115,14 +116,17 @@ nav {
   from {
     transform: translateY(0px);
   }
+
   to {
     transform: translateY(-15px);
   }
 }
+
 @-webkit-keyframes bounce {
   from {
     transform: translateY(0px);
   }
+
   to {
     transform: translateY(-15px);
   }
@@ -132,8 +136,44 @@ nav {
   animation: bounce 0.5s infinite alternate;
   color: rgb(100, 255, 218, 0.5);
 }
+
 /*Project*/
 
 a {
   text-decoration: none;
+}
+
+
+#project {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+
+.project-tumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF8484;
+  -moz-box-shadow: inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow: inset 0 0 5px #000000;
+}
+
+.project-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  font-size: 1.5rem
+  font-family: "Nanum Myeongjo", serif;
+  background-color: #FF8484;
+  -moz-box-shadow: inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow: inset 0 0 5px #000000;
 }
